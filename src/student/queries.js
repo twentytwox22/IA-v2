@@ -8,7 +8,7 @@ const updateStudent = "UPDATE students SET name = $1 WHERE studentNumber = $2"; 
 
 module.exports = {
  getStudents, //26:10
- getStudentById, //26:50
+ getStudentByStudentNumber, //26:50
  checkEmailExists, //40:10
  addStudent, //44:45
  removeStudent,
