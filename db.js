@@ -1,3 +1,5 @@
+// \d+ students -- see columns in students db
+
 const Pool = require('pg').Pool; //13:20
 
 const pool = new Pool({
